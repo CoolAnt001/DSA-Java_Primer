@@ -18,7 +18,7 @@ public class Q4recursive {
 
 	static void swap(String[] arr, int a, int b) {
 	    String temp = arr[a];
-		arr[a] = arr[b];
+		arr[a] = arr[b]; 
 		arr[b] = temp;
     }
 
