@@ -5,7 +5,7 @@ public class HW2 {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String[] lines = new String[100];  // array to store lines
+        String[] lines = new String[100];  // array to store lines 
         int count = 0;
 
         System.out.println("Enter lines (type END to stop):");
