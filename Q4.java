@@ -24,7 +24,6 @@ public class Q4 {
 	                }
 	            }
 	        }
-			//System.out.println();
 	    }
 	}
 }
