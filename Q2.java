@@ -14,10 +14,14 @@ public class Q2 {
 		
 		System.out.println("BMI: "+BMI);
 		System.out.print("This person is ");
-		if (BMI<18.5) System.out.println("Underweight");
-		else if (BMI<24.9) System.out.println("Normal Weight");
-		else if (BMI<29.9) System.out.println("Over Weight");
-		else System.out.println("Obese");
+		if (BMI<18.5) 
+			System.out.println("Underweight");
+		else if 
+			(BMI<24.9) System.out.println("Normal Weight");
+		else if 
+			(BMI<29.9) System.out.println("Over Weight");
+		else 
+			System.out.println("Obese");
 		
 sc.close();
 	}
