@@ -9,6 +9,6 @@ public class Q1 {
 	    	    count++;
 	    	    num/=2;
 	    }
-	    System.out.println("The number of times one must repeatedly divide this number \nby 2 before getting a value less than 2 is "+count);
+	    System.out.println("The number of times one must repeatedly divide this number by 2 before getting a value less than 2 is "+count);
 	}    
 }
