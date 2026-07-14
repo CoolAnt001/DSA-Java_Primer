@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Q3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter a number: ");
 		int n=sc.nextInt();
@@ -16,9 +15,11 @@ public class Q3 {
 			pdt*=r;	
 			m/=10;
 		}
+		
 		if (sum==pdt)
 			System.out.println(n+" is a spy number.");
-		else System.out.println("Not a spy number.");
+		else 
+			System.out.println("Not a spy number.");
 sc.close();
     }
 
